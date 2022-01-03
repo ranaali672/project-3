@@ -1,0 +1,45 @@
+body{
+    background-color: #333;
+    color: #fff;
+}
+.navbar{
+border-bottom: solid 4px #008ed6;
+opacity: .7;
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../images/home.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+
+}
+header .fa{
+    color: #008ed6;
+    background-color: white;
+    font-size: 36px;
+    padding: 6px;
+    border-radius: 4px;
+
+}#explore .fa{
+    color:#fff;
+    background-color: #333;
+    font-size: 36px;
+    padding: 6px;
+    border-radius: 4px;
+}#create .fa{
+
+    color: #008ed6;
+    background-color: #333;
+    font-size: 36px;
+    padding: 6px;
+    border-radius: 4px;
+
+}header .fa #create .fa{
+    color: #008ed6;
+    background-color: #333;
+    font-size: 36px;
+    padding: 6px;
+    border-radius: 4px;
+}
